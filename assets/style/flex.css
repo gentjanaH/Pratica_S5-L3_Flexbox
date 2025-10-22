@@ -1,0 +1,63 @@
+ /* MOBILE FIRST */
+
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ article {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     background-color: #fbf7e3;
+     color: #622506;
+     border-radius: 1em;
+     font-size: 12px;
+     width: 90%;
+     padding: 1em;
+     margin: auto;
+ }
+
+ article img {
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+
+ }
+
+ #testo h2 {
+     font-size: 15px;
+     font-weight: bold;
+     margin-bottom: 1em;
+ }
+
+ #testo {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 300px;
+     padding-bottom: 2em;
+ }
+
+ #testo,
+ #foto-miele {
+     width: 100%;
+     max-width: 500px;
+     box-sizing: border-box;
+ }
+
+ #foto-miele {
+     margin-right: 1em;
+ }
+
+ /* DESKTOP */
+ @media screen and (min-width:600px) {
+
+
+     article {
+         flex-direction: row-reverse;
+         align-items: center;
+
+     }
+
+
+ }
